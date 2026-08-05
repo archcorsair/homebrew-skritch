@@ -7,9 +7,11 @@ local-only screenshot annotation tool for macOS in the spirit of Skitch.
 
 ```sh
 brew tap archcorsair/skritch
+brew trust archcorsair/skritch
 brew install --cask skritch
 ```
 
+(`brew trust` is Homebrew's confirmation step for third-party taps.)
 Releases are Developer ID signed and notarized.
 
 The cask is updated automatically by Skritch's release workflow — issues with
