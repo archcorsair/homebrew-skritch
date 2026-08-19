@@ -1,6 +1,6 @@
 cask "skritch" do
-  version "0.2.0"
-  sha256 "153c9a66b720fc492e1d173d16114a88242c2b59d7175120d1ede9cc6e6c28da"
+  version "0.2.1"
+  sha256 "e4ff51bee69d87b153c570b717400008886e134b4ac4de2df2b3bfe95c940aee"
 
   url "https://github.com/archcorsair/skritch/releases/download/v#{version}/Skritch-#{version}.zip"
   name "Skritch"
